@@ -3,13 +3,13 @@ from genequery.utils import here
 
 ALLOWED_HOSTS = ['*']
 
-BASE_DIR = '/genequery/genequery-web/'
+BASE_DIR = '/genequery/front-end/genequery-web/'
 
 
 DEBUG = True
 
 STATIC_ROOT = here(BASE_DIR, '..', 'static')
-STATIC_URL = '/genequery/static/'
+STATIC_URL = '/genequery-web/static/'
 STATICFILES_DIRS = (
     here(BASE_DIR, 'static'),
 )
